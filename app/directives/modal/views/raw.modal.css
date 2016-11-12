@@ -1,0 +1,11 @@
+.raw-modal
+{
+    position: relative;
+    background-color: white;
+    top:50%;
+    transform: translateY(-50%);
+    padding:20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid rgba(0,0,0, 0.3);
+}

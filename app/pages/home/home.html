@@ -1,4 +1,6 @@
 <link rel="stylesheet" type="text/css" href="/app/pages/home/home.css"/>
 <div class="home">
     <h1>Home</h1>
+    <button class="ui primary button" ng-click="Home.OpenRawModal()">Raw</button>
 </div>
+<ni-modal ni-view="/app/directives/modal/views/raw.modal.html" ni-bind="Home" ni-alias="Test"></ni-modal>

@@ -1,5 +1,5 @@
 angular.module('app')
-.run
+.config
 (
     function($routeProvider, $locationProvider)
     {
